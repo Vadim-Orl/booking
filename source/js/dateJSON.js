@@ -2,9 +2,7 @@
   window.load = function (url, collbackOnSuccess, collbackOnError) {
     var xhr = new XMLHttpRequest();
     xhr.responseType = 'json';
-    console.log('1');
-    console.log('1');
-    console.log('1');
+    
     xhr.addEventListener('load', () => {
       if (xhr.status === 200) {
         collbackOnSuccess(xhr.response);
