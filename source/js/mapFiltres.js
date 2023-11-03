@@ -1,4 +1,4 @@
-import PinForMap from './PinForMap.js';
+import PinForMap from './pinForMap.js';
 
 const formMapFilters = document.querySelector('.map__filters-container');
 

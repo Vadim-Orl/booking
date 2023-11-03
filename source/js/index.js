@@ -1,5 +1,5 @@
 import MapListRenta from './map.js';
-import PinForMap from './PinForMap.js';
+import PinForMap from './pinForMap.js';
 
 const MapClassName = document.querySelector('.map')
 const MapPointsClassName = document.querySelector('.map__pins');
