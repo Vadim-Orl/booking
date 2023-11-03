@@ -2,6 +2,7 @@ const WORDSROOME = ['комната', 'комнаты', 'комнат'];
 const WORDGUEST = ['гостя', 'гостей']
 const CURRENCY = 'RUB';
 
+
 export default class PinForMap {
   constructor(elDateBd, index, { containerMapNode, containerPinsNode, containerMapFiltres }, template) {
     this.element = null;
