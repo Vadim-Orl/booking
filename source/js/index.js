@@ -13,7 +13,7 @@ window.myMap = new MapListRenta([MapClassName, MapPointsClassName, MapFiltersCla
 
 const openSitePage = function () {
   window.myMap.openMap();
-  window.myMap.initPinForMap(window.dateTest, PinForMap);
+  window.myMap.initPinForMap(window.dataTest, PinForMap);
   document.querySelector('.map__pin--main').removeEventListener('mouseup', openSitePage);
   MapClassName.addEventListener('click', openPopup);
 }

@@ -1,7 +1,7 @@
 const MapClassName = document.querySelector('.map')
 
 const date = {
-  COUNT_ADS: 11,
+  COUNT_ADS: 8,
   OFFER_TITLE: ['Большая уютная квартира',
     'Маленькая неуютная квартира',
     'Огромный прекрасный дворец',
@@ -60,4 +60,4 @@ function doRandomFeatures() {
   return newArrFeatures;
 }
 
-window.dateTest = createBd();
+window.dataTest = createBd();
