@@ -65,7 +65,7 @@ export default class MapListRenta {
     return newBd
   }
 }
-console.log('test')
+
 // helperes
 function activateFilter() {
   const element = document.querySelectorAll('.form__element');

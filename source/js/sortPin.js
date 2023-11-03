@@ -1,4 +1,4 @@
-let checkboxisFeatures = document.querySelector('.features');
+const checkboxisFeatures = document.querySelector('.features');
 // console.log(checkboxisFeatures);
 
-export default {checkboxisFeatures};
+export default { checkboxisFeatures };
