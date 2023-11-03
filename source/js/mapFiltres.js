@@ -38,6 +38,7 @@ function changeFeatures(evt) {
 }
 
 function changeFiltersMap(evt) {
+  console.log('11')
   const { target } = evt;
   if (target.type !== 'checkbox') {
     changeFilterObj(target.name, (parseInt(target.value, 10) || target.value))
